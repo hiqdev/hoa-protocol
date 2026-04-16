@@ -46,7 +46,7 @@ class Library extends Node
     /**
      * Queue of the component.
      */
-    public function reach(string $queue = null)
+    public function reach(?string $queue = null)
     {
         if (!WITH_COMPOSER) {
             return parent::reach($queue);
